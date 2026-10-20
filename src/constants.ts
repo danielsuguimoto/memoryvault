@@ -30,7 +30,7 @@ export const MEMORY_SEARCH_MAX_LIMIT = 20;
 export const VECTOR_ID_PREFIX = 'm:';
 export const VECTOR_ID_MAX_MEMORY_ID_LENGTH = 62; // 2-byte prefix + 62-byte id = 64-byte vector id limit.
 export const DEFAULT_OAUTH_REDIRECT_DOMAIN_ALLOWLIST = ['localhost', '127.0.0.1'] as const;
-export const TRUSTED_REDIRECT_DOMAINS = ['poke.com', 'claude.ai', 'pally.com', 'agent.pally.com'] as const;
+export const TRUSTED_REDIRECT_DOMAINS = ['poke.com', 'claude.ai', 'pally.com', 'agent.pally.com', 'my.pally.com', 'hark.com'] as const;
 
 export const DEFAULT_BRAIN_POLICY: BrainPolicy = {
   decay_days: 30,
